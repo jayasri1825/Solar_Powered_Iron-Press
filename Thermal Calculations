@@ -1,0 +1,89 @@
+# Solar Powered Iron Press System – Thermal Calculations
+
+Basic engineering calculations for the Solar Powered Iron Press using solar thermal concentration.
+
+
+#Design Parameters
+
+Parameter | Value |
+Solar Intensity (I) = 1000 W/m²
+Fresnel Lens Area (A)=0.25 m²
+Estimated Thermal Efficiency=72–80%
+
+---
+
+# 1. Heat Energy Calculation
+
+### Formula
+
+Q = I × A
+
+Where:
+
+- **Q** = Heat energy collected (W)
+- **I** = Solar intensity (W/m²)
+- **A** = Fresnel lens area (m²)
+
+# Calculations
+
+I = 1000 W/m²
+
+A = 0.25 m²
+
+Q = 1000 × 0.25
+
+**Q = 250 W**
+
+---
+
+# 2. Useful Heat After Thermal Losses
+
+Considering convection and radiation losses:
+
+Useful Heat = Total Heat × Efficiency
+
+| Efficiency | Useful Heat |
+|------------|-------------|
+| 72% | **180 W** |
+| 76% | **190 W** |
+| 80% | **200 W** |
+
+**Estimated useful heat output: 180–200 W**
+
+---
+
+# 3. Thermal Efficiency Estimation
+
+### Formula
+
+η = (Useful Heat Output / Total Solar Heat Input) × 100
+
+### Example
+
+Useful Heat = **190 W**
+
+Total Heat Input = **250 W**
+
+η = (190 / 250) × 100
+
+**η = 76%**
+
+---
+
+# Summary
+
+| **Parameter** | **Result** |
+|--------------|------------|
+| Heat Collected | **250 W** |
+| Useful Heat Output | **180–200 W** |
+| Average Useful Heat | **190 W** |
+| Thermal Efficiency | **76%** |
+
+---
+
+## Conclusion
+
+The Solar Powered Iron Press is capable of collecting approximately **250 W** of solar thermal energy. After accounting for thermal losses, the system delivers **180–200 W** of useful heat with an estimated efficiency of **76%**, demonstrating the feasibility of solar thermal energy for domestic ironing applications.
+
+---
+*Project: Solar Powered Iron Press*
